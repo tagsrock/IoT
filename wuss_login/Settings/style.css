@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+.wuss_setting_banner
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.wuss_preview_banner
+{
+	max-width: 250px;
+	max-height:150px;
+	width:auto;
+	height: auto;
+	border:solid 1px #666;
+}
+
+.wuss_table_striped tbody tr:nth-child(even){
+	background-color: #ccc;
+}
+.wuss_settings_description
+{
+	border: solid 1px;
+	width: 200px;
+	margin: 1px;
+	padding: 15px;
+}
+
+.wuss_settings_values
+{
+	border: solid 1px;
+	margin: 5px;
+	padding: 15px;
+}
+
+.userlist
+{
+	width: 200px;
+	border:solid 1px;
+	margin: 5px;
+	padding: 15px;
+	background-color:#CCC;
+}
+
+.actionslist
+{
+	border:solid 1px;
+	margin: 5px;
+	padding: 15px;
+	background-color:#CCC;
+}
+
+/* all input fields have uniform width */
+.inputfield
+{
+	width:250px;
+}
+
+.inputfieldshort
+{
+	width:80px;
+}
+
+.inputfieldlong
+{
+	width:460px;
+}
+
+/* all buttons to have uniform width */
+.inputbutton
+{
+	width:70px;
+}
+
+.userlist-submit
+{
+	width:200px;
+}
+
+.stattablebuttoncol
+{
+    text-align: right;
+    width:90px;
+}
+
+.stattable
+{
+	display:inline-block;
+    width:600px;
+	border:solid 1px;
+}
+
+.stattableheader
+{
+	background-color:#09F;
+	color: #FFF;
+	font-weight:900;
+}

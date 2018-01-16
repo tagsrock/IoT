@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+
+/* web page related CSS*/
+
+/*
+<div class="imgbanner_h" style="background-image: url(http://guild.site/shadowdragons/wp-content/uploads/sites/10/2015/10/ShadowDragonsTitlePNG.png)">
+<div class="imgbannerlayout_h"></div>
+  <div class="imgbannertext_h">
+    <p>Shadow Dragons</p>
+  </div>
+</div>
+*/
+
+
+/* banner sizing*/
+.imgbanner, .imgbanner_v, .imgbanner_h {
+	border-radius: 25px;
+	border: 2px solid #000;
+	margin: 10px;
+	float: left;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgbanner_v {
+	width: 165px;
+}
+
+
+.imgbanner_h {
+	width: 450px;
+}
+
+
+.imgbannerlayout_v {
+	height: 250px;
+}
+
+
+.imgbannerlayout_h {
+	height: 150px;
+}
+
+/* text area on banners */
+.imgbannertext, .imgbannertext_v, .imgbannertext_h {
+	color: white;
+	text-align: center;
+	border-radius: 0px 0px 23px 23px;
+	background-color: #2C7C91;
+	-webkit-transition: background-color 0.2s; /* Safari */
+	transition: background-color 0.2s;
+}
+
+.imgbannertext_v:hover, .imgbannertext_h:hover{
+	background-color: rgba(37, 111, 130, 0.95);
+}
+
+
+.imgbannertext_v{
+	padding: 10px;
+	height: 80px;
+}
+
+
+.imgbannertext_h{
+	padding: 0px;
+	height: 30px;
+}
+
+.imgbannertext_h p{
+	padding: 0px;
+}
+
+/* poster sizing */
+.wuss_poster, .wuss_poster_noframe{
+	border-radius: 20px;
+	border: 2px solid #000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wuss_poster_noframe {
+	border: 0;
+}
