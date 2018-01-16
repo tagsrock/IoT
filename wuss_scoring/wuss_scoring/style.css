@@ -1,0 +1,36 @@
+.wuss_highscores_header tr
+{
+
+}
+
+.wuss_highscores_header td
+{
+    background-color: #7d0000;
+    color: #ffffcc;
+}
+
+.wuss_highscores_table
+{
+    padding: 5px;
+}
+
+.wuss_highscores_table tr
+{
+
+}
+
+.wuss_highscores_table td
+{
+    width: 40%;
+}
+
+#wuss_highscores_gravatar_col
+{
+    text-align: center;
+    width: 20%;
+}
+
+.wuss_highscores_header_widget
+{
+    text-align: center;
+}
